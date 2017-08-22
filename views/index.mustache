@@ -6,6 +6,17 @@
     <title>Mystery Word</title>
   </head>
   <body>
+    <h1>The word is: {{randomWord}}</h1>
+
+    {{#mysteryWord}}
+      {{.}}
+    {{/mysteryWord}}
+
+    <form class="guessField" action="/" method="post">
+      <input type="text" name="guess" value="">
+      <input type="submit" name="guessButton" value="Guess the word, BRO!">
+    </form>
+    <h3>Your guesses: {{guessLetterArray}}</h3>
 
   </body>
 </html>
