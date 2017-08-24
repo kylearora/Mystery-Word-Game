@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: noteworthy;
+  background: #282D2D;
+}
+#title {
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: white;
+  background: #2CB8AD;
+  margin-top: -5px;
+}
+
+.theWordDiv {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  background: grey;
+  border-radius: 10px;
+  margin-left: 520px;
+}
+
+#wordHeader {
+  text-align: center;
+  color: white;
+}
+
+#randomWord {
+  margin-left: 10px;
+  text-align: center;
+  color: grey;
+}
+
+#randomWord:hover {
+  color: #3AEB7A;
+}
+
+.theWord {
+  font-size: 30px;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.guessField {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#guessInput {
+  height: 20px;
+  width: 150px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+#guessButton {
+  width: 128px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#guessButton:hover {
+  background: #2CB8AD;
+}
+
+#guessesLeft {
+  text-align: center;
+  color: white;
+}
+
+#yourGuesses {
+  text-align: center;
+    color: white;
+}
+
+#youWin {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}

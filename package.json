@@ -1,7 +1,6 @@
 {
   "name": "week-four-project",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.17.2",
@@ -24,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/kylearora/week-four-project/issues"
   },
-  "homepage": "https://github.com/kylearora/week-four-project#readme"
+  "homepage": "https://github.com/kylearora/week-four-project#readme",
+  "description": ""
 }
